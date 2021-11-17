@@ -1,0 +1,41 @@
+A TERMINAR
+
+
+/*Ejercicio 1*/
+select *
+from Customers 
+order by CompanyName ASC
+
+
+/*Ejercicio 2*/
+select *
+from Orders
+order by OrderDate DESC
+
+
+/*Ejercicio 3*/
+select *
+from "Order Details"
+order by Quantity ASC
+
+
+/*Ejercicio 4*/
+select *
+from Products
+where ProductName REGEXP "^P" and UnitPrice BETWEEN 10 and 20
+
+
+/*Ejercicio 5*/
+select *
+from Customers
+where Country in ("USA","UK","France")
+
+
+/*Ejercicio 6*/
+select *
+from Products
+where Discontinued =1 and CategoryID in (1,3,4,7)
+
+
+
+/*Ejercicio 7*/
